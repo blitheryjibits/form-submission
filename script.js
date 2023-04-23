@@ -23,7 +23,3 @@ password2.addEventListener('keyup', () => {
 const phoneInput = window.intlTelInput(phone, {
     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
 })
-
-// phone.addEventListener('keyup', () => {
-    
-// });
