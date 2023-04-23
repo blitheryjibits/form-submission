@@ -1,0 +1,23 @@
+{
+  "name": "form-submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blitheryjibits/form-submission.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blitheryjibits/form-submission/issues"
+  },
+  "homepage": "https://github.com/blitheryjibits/form-submission#readme",
+  "dependencies": {
+    "intl-tel-input": "^18.1.3"
+  }
+}

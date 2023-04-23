@@ -1,6 +1,8 @@
+// import intlTelInput from "intl-tel-input";
+
 let password = document.querySelector('#password');
 let password2 = document.querySelector('#confirm-password');
-let phone = document.querySelector('#phone-number');
+const phone = document.querySelector('#phone-number');
 
 password.addEventListener('keyup', () => {
     if(!password.value.match('^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$')) {
@@ -17,6 +19,10 @@ password2.addEventListener('keyup', () => {
         password2.nextElementSibling.classList.remove('visible');
     }
 });
+
+const phoneInput = window.intlTelInput(phone, {
+    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+})
 
 // phone.addEventListener('keyup', () => {
     
